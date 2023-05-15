@@ -2,6 +2,10 @@
     margin: 0;
     
 }
+.box{
+width: 1600px;
+margin: 0 auto;
+}
 .header {
     margin: 0 auto;
     height: 80px;
@@ -13,19 +17,22 @@
     display: flex;
     height: 80px;
     justify-content:space-between;
+    width: 1600px;
+    margin: 0 auto;
 }
 .gym_icon {
+    display: flex;
    margin-top: 10px;
-   width: 100px;
-   margin-left: 100px;
+   width: 250px;
+   align-items: center;
 }
 
 .gym_yakora {
     display: flex;
-    width: 700px;
     text-align: center;
     text-transform: uppercase;
     font-family: sans-serif;
+    padding: 10px;
 }
 
 .gym_yakora p{
@@ -33,6 +40,11 @@
     text-align: center;
     padding-top:30px;
 }
+.gym_yakora p:first-child{
+    padding-left: 0;
+}
+
+
 .gym_yakora p a{
     text-decoration: none;
     color: whitesmoke;
@@ -47,7 +59,7 @@
 .gym_nav {
     width: 80px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 20px;
 }
 .menu {
@@ -57,6 +69,9 @@
     display: flex;
     margin: 0 auto;
     padding: 0;
+    justify-content: space-evenly;
+    background-color: #06111f;
+    
 }
 
 .in_gym {
@@ -68,9 +83,10 @@
     color: whitesmoke;
     font-family: sans-serif;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 50px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    padding-bottom: 40px;
 }
 .real_o_zale{
     display: flex;
@@ -114,6 +130,7 @@
     padding-top: 40px;
     text-transform: uppercase;
     margin-bottom: 10px;
+    padding-bottom: 30px;
 }
 .price_inner{
     display: flex;

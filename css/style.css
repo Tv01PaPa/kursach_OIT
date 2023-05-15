@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    
+}
+.header {
+    margin: 0 auto;
+    height: 80px;
+    background-color:#06112f;
+    color: whitesmoke;
+    padding-top: 0;
+}
+.header_iner {
+    display: flex;
+    height: 80px;
+    justify-content:space-between;
+}
+.gym_icon {
+   margin-top: 10px;
+   width: 100px;
+   margin-left: 100px;
+}
+
+.gym_yakora {
+    display: flex;
+    width: 700px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.gym_yakora p{
+    padding-left: 50px;
+    text-align: center;
+    padding-top:30px;
+}
+.gym_yakora p a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 10px;
+}
+.gym_yakora p a:hover{
+    background-color: #ff2b2b;
+    border: #ff2b2b solid 10px;
+    border-radius: 5px;
+  
+}
+.gym_nav {
+    width: 80px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.menu {
+}
+
+.kachki{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.in_gym {
+}
+.o_zale_kratko {
+    background-color: #06111f;
+}
+.o_zale {
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.real_o_zale{
+    display: flex;
+    justify-content: space-around;
+}
+.more_o_zale {
+    
+}
+.image_o_zale_inner {
+    
+}
+.image_o_zale {
+ 
+}
+.image_o_zale img{
+    height: 450px;
+    width: 450px;
+}
+.text_o_zale {
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+.inner_text_o_zale {
+    
+}
+
+
+.price {
+    background-color: #06111f;
+    
+}
+.price_all {
+}
+.abonement {
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.price_inner{
+    display: flex;
+    justify-content: space-between;
+}
+.more_about_price {
+}
+.image_price{
+
+}
+.image_price img {
+    width: 600px;
+    height: 600px;
+}
+.image_price_inner {
+}
+.textprice {
+}
+.text_price_inner {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+.padding_price{
+    padding-top: 10px;
+}
+.price_p1 {
+    color: #ff2b2b;
+}
+.price_p2 {
+    color: #fce80d;
+}
+.price_p3 {
+    color: #008000;
+}
+.p1{
+    text-decoration: underline;
+}
+.p2{
+    text-decoration: underline;
+}
+.p3{
+    text-decoration: underline;
+}
+.contacts{
+    background-color: #06112f;
+}
+.contacts_inner{
+    padding-top: 40px;
+    text-decoration: none;
+    margin-left: 650px;
+    color: whitesmoke;
+}
+.inner_contacts_inner{
+    display: flex;
+    text-transform: uppercase;
+   
+}
+.text_footer_contact{
+    padding-left: 20px;
+    color:whitesmoke;
+}
+#mail{
+    text-transform: none;
+}

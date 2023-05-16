@@ -48,7 +48,7 @@ margin: 0 auto;
 .gym_yakora p a{
     text-decoration: none;
     color: whitesmoke;
-    padding: 10px 10px;
+    padding: 10px;
 }
 .gym_yakora p a:hover{
     background-color: #ff2b2b;
@@ -73,7 +73,10 @@ margin: 0 auto;
     background-color: #06111f;
     
 }
+.kachki img{
+    background-size: cover;
 
+}
 .in_gym {
 }
 .o_zale_kratko {
@@ -95,11 +98,13 @@ margin: 0 auto;
 .more_o_zale {
     
 }
-.image_o_zale_inner {
+.image_o_zale_inner  {
+    
     
 }
-.image_o_zale {
- 
+.image_o_zale img {
+   
+    object-fit: cover;
 }
 .image_o_zale img{
     height: 450px;
@@ -178,22 +183,43 @@ margin: 0 auto;
 }
 .contacts{
     background-color: #06112f;
-}
-.contacts_inner{
+    display: flex;
+    }
+    .contacts_inner{
     padding-top: 40px;
     text-decoration: none;
     margin-left: 650px;
     color: whitesmoke;
-}
-.inner_contacts_inner{
+    font-family: sans-serif;
+    }
+    .inner_contacts_inner{
     display: flex;
     text-transform: uppercase;
-   
-}
-.text_footer_contact{
+    
+    }
+    .text_footer_contact{
     padding-left: 20px;
     color:whitesmoke;
-}
-#mail{
+    font-family: sans-serif;
+    }
+    #mail{
     text-transform: none;
-}
+    }
+    .image_price_inner img{
+    object-fit: cover;
+    }
+    .di{
+    background-color: #ff2b2b;
+    border: #ff2b2b solid 10px;
+    border-radius:10px;
+    margin-top: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: sans-serif;
+    
+    }
+    a.a_class{
+    color: whitesmoke;
+    text-decoration: none;
+    }

@@ -1,3 +1,145 @@
 *{
     margin: 0;
-}
+    
+    }
+    .box{
+    width: 1600px;
+    margin: 0 auto;
+    }
+    .header {
+    margin: 0 auto;
+    height: 80px;
+    background-color:#06112f;
+    color: whitesmoke;
+    padding-top: 0;
+    }
+    .header_iner {
+    display: flex;
+    height: 80px;
+    justify-content:space-between;
+    width: 1600px;
+    margin: 0 auto;
+    }
+    .gym_icon {
+    display: flex;
+    margin-top: 10px;
+    width: 250px;
+    align-items: center;
+    }
+    
+    .gym_yakora {
+    display: flex;
+    
+    }
+    .gym_nav {
+    width: 80px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    }
+    
+    .nav_item {
+    text-decoration: none;
+    list-style-type: none;
+    }
+    
+    
+    .header_menu{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .menu_item{
+        display: flex;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        padding: 10px;
+        text-decoration: none;
+        color: whitesmoke;   
+    }
+    .menu_item:hover{
+        background-color: #ff2b2b;
+        border: #ff2b2b solid 10px;
+        border-radius: 5px;
+      
+    }
+    .li_menu_item {
+    list-style-type: none;
+    
+    }
+    
+    .about_zal {
+    }
+    .about_zal-inner {
+    }
+    .spisok {
+        background-color: #06111f;
+       
+    }
+    .spisok_inner {
+        line-height: 30px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        color: whitesmoke;
+    }
+    .little_spisok_inner {
+        font-family: sans-serif;
+        text-transform: uppercase;
+        color: whitesmoke
+    }
+    .picture{
+        object-fit: cover;
+    }
+    .text{
+        padding-left: 700px;
+    }
+    
+    
+    
+    
+    
+    .contacts{
+    background-color: #06112f;
+    display: flex;
+    }
+    .contacts_inner{
+    padding-top: 40px;
+    text-decoration: none;
+    margin-left: 650px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    }
+    .inner_contacts_inner{
+    display: flex;
+    text-transform: uppercase;
+    
+    }
+    .text_footer_contact{
+    padding-left: 20px;
+    color:whitesmoke;
+    font-family: sans-serif;
+    }
+    #mail{
+    text-transform: none;
+    }
+    .image_price_inner img{
+    object-fit: cover;
+    }
+    .di{
+    background-color: #ff2b2b;
+    border: #ff2b2b solid 10px;
+    border-radius:10px;
+    margin-top: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: sans-serif;
+    
+    }
+    .di a{
+    color: whitesmoke;
+    text-decoration: none;
+    }

@@ -97,7 +97,12 @@
         padding-left: 700px;
     }
     
-    
+    .header_about_us{
+        text-transform: uppercase;
+        color: whitesmoke;
+        font-family: sans-serif;
+        text-align: center;
+    }
     
     
     
@@ -142,4 +147,7 @@
     .di a{
     color: whitesmoke;
     text-decoration: none;
+    }
+    img{
+        object-fit: cover;
     }
